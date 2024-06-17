@@ -1,0 +1,143 @@
+@font-face {
+  font-family: samim;
+  src: url('~assets/fonts/samim/Farsi-Digits/Samim-FD.eot?#iefix') format('FontName-opentype'),
+    url('~assets/fonts/samim/Farsi-Digits/Samim-FD.woff') format('woff'),
+    url('~assets/fonts/samim/Farsi-Digits/Samim-FD.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "samim" !important;
+}
+
+.place-text-on-image {
+  position: absolute;
+  top: 219px;
+  left: 75%;
+  text-shadow: 2px 2px black;
+}
+
+.size-options-menu-mobile {
+  width: 80%;
+  top: 148%;
+  position: relative;
+  margin-right: 8%;
+  margin-top: -14%;
+}
+
+.position-image-suggested {
+  position: relative;
+}
+
+.menu-divisions{
+  border-left: 1px solid #646464;
+  height: 141px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.mt-mr-options-desktop {
+  margin-right: 8%;
+  margin-top: -6%;
+}
+
+.options-box {
+  border-radius: 5%;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 20%;
+  padding: 20px;
+}
+
+.options-box:hover {
+  background-color: rgba(46, 250, 28, 0.7);
+}
+
+.line-height-description {
+  line-height: 2em;
+}
+
+.border-all-image {
+  border-radius: 18px;
+}
+
+.direction-social-networks-text {
+  float: right;
+}
+
+.social-networks {
+  background-image: linear-gradient(to right, #00f9a7, #00f933);
+  width: 345px;
+  border-radius: 15px;
+  height: 80px;
+}
+
+.title-on-picture-suggested {
+  position: absolute;
+  bottom: 68px;
+  right: 4%;
+  text-shadow: 2px 2px 2px black;
+}
+
+.subtitle-on-picture-suggested {
+  position: absolute;
+  bottom: 31px;
+  right: 4%;
+  text-shadow: 2px 2px 2px black;
+}
+
+.border-question-box {
+  border-radius: 5px;
+}
+
+.direction-img-left-question {
+  float: inline-start;
+}
+
+.place-Slogan-aboutus-on-image {
+  width: 850px;
+  margin: -85px auto 0;
+  position: relative;
+}
+
+.height-input-form-safarcart {
+  height: 140px;
+}
+.collapse-transition {
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.collapsed {
+  max-height: 0px;
+}
+
+.expanded {
+  max-height: 500px; /* Set an appropriate max-height value */
+}
+
+@media only screen and (min-width: 412px) {
+  .mt-65{
+    margin-top: 44px;
+  } 
+}
+@media only screen and (min-width: 1200px) {
+  .mt-65{
+    margin-top: 65px;
+  }
+  .background-fixed{
+  background-image: url("static/index/travel11.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .white-color-text{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+}
